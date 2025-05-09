@@ -25,7 +25,7 @@ export default function NewsCard({ title, date, excerpt, slug }) {
       </CardContent>
       <CardFooter>
         <Button variant="link" className="px-0" asChild>
-          <Link href={`/berita/${slug}`}>Baca Selengkapnya</Link>
+          <Link href={`/berita/${slug}`}>Baca Selengkapnyaa</Link>
         </Button>
       </CardFooter>
     </Card>

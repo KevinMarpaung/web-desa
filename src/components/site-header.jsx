@@ -9,7 +9,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="font-bold text-xl mr-6 mx-2">
-          Desa aceh tamiang
+          Desa aceh tamiangs
         </Link>
         <nav className="hidden md:flex gap-6 flex-1">
           <Link
