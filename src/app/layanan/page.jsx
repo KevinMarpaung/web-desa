@@ -44,7 +44,7 @@ export default function LayananPage() {
             </CardContent>
             <CardFooter>
               <Button asChild>
-                <Link href="/layanan/surat-pengantar">Ajukan Permohonan</Link>
+                <Link href="/layanan/surat-pengatar">Ajukan Permohonan</Link>
               </Button>
             </CardFooter>
           </Card>
