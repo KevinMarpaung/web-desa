@@ -89,8 +89,8 @@ export default function KontakPage() {
                   <div>
                     <h3 className="font-bold mb-1">Alamat</h3>
                     <p className="text-muted-foreground">
-                      Jl. Desa No. 123, aceh tamiang, kecamatan tamiang,
-                      Kabupaten tamiang
+                      Jl. Desa No. 123, Bandar Khalifah, kecamatan Tamiang hulu,
+                      Kabupaten Aceh Tamiang
                     </p>
                   </div>
                 </div>
@@ -103,9 +103,9 @@ export default function KontakPage() {
                   <Phone className="h-6 w-6 text-emerald-600 mt-0.5" />
                   <div>
                     <h3 className="font-bold mb-1">Telepon</h3>
-                    <p className="text-muted-foreground">(021) 1234-5678</p>
+                    <p className="text-muted-foreground">(62) 1234-5678</p>
                     <p className="text-muted-foreground">
-                      Darurat: (021) 9876-5432
+                      Darurat: (62) 9876-5432
                     </p>
                   </div>
                 </div>
@@ -119,10 +119,10 @@ export default function KontakPage() {
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
                     <p className="text-muted-foreground">
-                      info@acehtamiang.desa.id
+                      info@bandarkhalifah.desa.id
                     </p>
                     <p className="text-muted-foreground">
-                      admin@acehtamiang.desa.id
+                      admin@bandarkhalifah.desa.id
                     </p>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ export default function KontakPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Jam Pelayanan</CardTitle>
-                <CardDescription>Kantor Desa Sejahtera</CardDescription>
+                <CardDescription>Kantor Desa Bandar Khalifah</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
@@ -160,9 +160,9 @@ export default function KontakPage() {
         <div className="relative h-[400px] rounded-lg overflow-hidden bg-gray-200 flex items-center justify-center">
           <div className="text-center">
             <MapPin className="h-12 w-12 mx-auto mb-4 text-emerald-600" />
-            <p className="text-lg font-medium">Peta Desa aceh tamiang</p>
+            <p className="text-lg font-medium">Peta Desa Bandar Khalifah</p>
             <p className="text-muted-foreground">
-              Kecamatan aceh tamiang, Kabupaten tamiang
+              kecamatan Tamiang hulu, Kabupaten Aceh Tamiang
             </p>
           </div>
         </div>

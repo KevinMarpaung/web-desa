@@ -128,8 +128,8 @@ export default function GaleriPage() {
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">Galeri Desa</h1>
       <p className="text-muted-foreground mb-8">
-        Kumpulan foto kegiatan, infrastruktur, wisata, dan budaya Desa
-        Sejahtera.
+        Kumpulan foto kegiatan, infrastruktur, wisata, dan budaya Desa Bandar
+        Khalifah
       </p>
 
       <Tabs defaultValue="kegiatan" className="mb-12">

@@ -1,15 +1,14 @@
 import "@/app/globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
-import SiteHeader from "@/components/site-header";
-import SiteFooter from "@/components/site-footer";
+import LayoutWrapper from "@/components/LayoutWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Desa Sejahtera - Website Resmi",
+  title: "Desa Bandar Khalifah - Website Resmi",
   description:
-    "Website resmi Desa Sejahtera, Kecamatan Makmur, Kabupaten Bahagia",
+    "Website resmi Desa Bandar Khalifah, Kecamatan Tamiang Hulu, Kabupaten Aceh Tamiang",
 };
 
 export default function RootLayout({ children }) {
@@ -22,11 +21,7 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          <div className="relative flex min-h-screen flex-col">
-            <SiteHeader />
-            <main className="flex-1">{children}</main>
-            <SiteFooter />
-          </div>
+          <LayoutWrapper>{children}</LayoutWrapper>
         </ThemeProvider>
       </body>
     </html>

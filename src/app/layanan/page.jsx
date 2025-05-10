@@ -22,8 +22,8 @@ export default function LayananPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-2">Layanan Desa</h1>
         <p className="text-muted-foreground mb-8">
-          Berikut adalah layanan yang disediakan oleh Pemerintah Desa Sejahtera
-          untuk masyarakat.
+          Berikut adalah layanan yang disediakan oleh Pemerintah Desa Bandar
+          Khalifah untuk masyarakat.
         </p>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -174,7 +174,7 @@ export default function LayananPage() {
           <div className="mt-4 text-sm text-muted-foreground">
             <p>
               Untuk layanan darurat di luar jam kerja, silakan hubungi nomor
-              darurat desa: (021) 9876-5432
+              darurat desa: (62) 9876-5432
             </p>
           </div>
         </div>

@@ -32,10 +32,12 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Desa Tamiang</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            Desa Bandar Khalifah
+          </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            Selamat datang di website resmi Desa tamiang. Temukan informasi dan
-            layanan untuk masyarakat desa.
+            Selamat datang di website resmi Desa Bandar Khalifah. Temukan
+            informasi dan layanan untuk masyarakat desa.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button size="lg" asChild>
@@ -56,7 +58,7 @@ export default function Home() {
       {/* Quick Links */}
       <section className="py-8 bg-muted">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="text-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             <Link
               href="/layanan"
               className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
@@ -111,13 +113,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-4">
-                Selamat Datang di Desa Sejahtera
+                Selamat Datang di Desa Bandar Khalifah
               </h2>
               <p className="text-muted-foreground mb-6">
-                Desa tamiang adalah desa yang terletak di kecamatan aceh
-                tamiang, kabupaten aceh tamiang. Dengan luas wilayah sekitar 500
-                hektar dan jumlah penduduk mencapai 5.000 jiwa, desa kami
-                memiliki potensi alam yang indah dan budaya yang kaya.
+                Desa Bandar Khalifah adalah desa yang terletak di kecamatan
+                Tamiang hulu, kabupaten aceh tamiang. Dengan luas wilayah
+                sekitar 500 hektar dan jumlah penduduk mencapai 5.000 jiwa, desa
+                kami memiliki potensi alam yang indah dan budaya yang kaya.
               </p>
               <p className="text-muted-foreground mb-6">
                 Website ini dibangun untuk memberikan informasi terkini tentang

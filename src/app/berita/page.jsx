@@ -73,7 +73,8 @@ export default function BeritaPage() {
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">Berita Desa</h1>
       <p className="text-muted-foreground mb-8">
-        Informasi terbaru seputar kegiatan dan perkembangan Desa Aceh Tamiang.
+        Informasi terbaru seputar kegiatan dan perkembangan Desa Bandar
+        Khalifah.
       </p>
 
       <div className="flex flex-col md:flex-row gap-8">

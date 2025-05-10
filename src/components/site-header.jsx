@@ -9,7 +9,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="font-bold text-xl mr-6 mx-2">
-          Desa aceh tamiangs
+          Desa Bandar Khalifah
         </Link>
         <nav className="hidden md:flex gap-6 flex-1">
           <Link
@@ -23,6 +23,12 @@ export default function SiteHeader() {
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
           >
             Profil Desa
+          </Link>
+          <Link
+            href="/sumber-daya-alam"
+            className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+          >
+            Sumber Daya Alam
           </Link>
           <Link
             href="/layanan"

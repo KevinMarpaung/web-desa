@@ -14,9 +14,10 @@ export default function SiteFooter() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">Desa Sejahtera</h3>
+            <h3 className="font-bold text-lg mb-4">Desa Bandar Khalifah</h3>
             <p className="text-muted-foreground mb-4">
-              Website resmi Desa Sejahtera, Kecamatan Makmur, Kabupaten Bahagia.
+              Website resmi Desa Bandar Khalifah, Kecamatan Tamiang hulu,
+              Kabupaten Aceh Tamiang.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -141,18 +142,18 @@ export default function SiteFooter() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-emerald-600 mt-0.5" />
                 <span className="text-muted-foreground">
-                  Jl. Desa No. 123, Desa aceh tamiang, Kecamatan tamiang,
-                  Kabupaten aceh tamiang
+                  Jl. Desa Bandar Khalifah, Desa Bandar Khalifah, Kecamatan
+                  Tamiang hulu, Kabupaten Aceh Tamiang
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-emerald-600" />
-                <span className="text-muted-foreground">(021) 1234-5678</span>
+                <span className="text-muted-foreground">(62) 1234-5678</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-emerald-600" />
                 <span className="text-muted-foreground">
-                  info@desaacehtamiang.desa.id
+                  info@desabandarkhalifah.desa.id
                 </span>
               </li>
             </ul>
@@ -161,7 +162,7 @@ export default function SiteFooter() {
 
         <div className="border-t mt-12 pt-6 text-center text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Desa Aceh Tamiang. Hak Cipta
+            &copy; {new Date().getFullYear()} Desa Bandar Khalifah. Hak Cipta
             Dilindungi.
           </p>
         </div>

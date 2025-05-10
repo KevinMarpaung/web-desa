@@ -12,12 +12,12 @@ export default function ProfilPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6">Profil Desa aceh tamiang</h1>
+        <h1 className="text-3xl font-bold mb-6">Profil Desa Bandar Khalifah</h1>
 
         <div className="relative h-[300px] rounded-lg overflow-hidden mb-8">
           <Image
             src="/profilDesa.jpg"
-            alt="Panorama Desa Sejahtera"
+            alt="Panorama Desa Bandar Khalifah"
             fill
             className="object-cover"
           />
@@ -34,17 +34,17 @@ export default function ProfilPage() {
             <h2 className="text-2xl font-bold mb-4">Sejarah Desa</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Desa Sejahtera didirikan pada tahun 1945 setelah kemerdekaan
-                Indonesia. Awalnya, desa ini merupakan pemukiman kecil yang
-                dihuni oleh beberapa keluarga petani yang mengolah lahan subur
-                di sekitar sungai.
+                Desa Bandar Khalifah didirikan pada tahun 1945 setelah
+                kemerdekaan Indonesia. Awalnya, desa ini merupakan pemukiman
+                kecil yang dihuni oleh beberapa keluarga petani yang mengolah
+                lahan subur di sekitar sungai.
               </p>
               <p>
-                Nama "Sejahtera" diberikan oleh para pendiri desa yang berharap
-                desa ini akan membawa kesejahteraan bagi seluruh penduduknya.
-                Seiring berjalannya waktu, desa ini berkembang menjadi pusat
-                pertanian dan perdagangan lokal yang penting di wilayah
-                tersebut.
+                Nama "Bandar Khalifah diberikan oleh para pendiri desa yang
+                berharap desa ini akan membawa kesejahteraan bagi seluruh
+                penduduknya. Seiring berjalannya waktu, desa ini berkembang
+                menjadi pusat pertanian dan perdagangan lokal yang penting di
+                wilayah tersebut.
               </p>
               <p>
                 Pada tahun 1970-an, desa ini mengalami modernisasi dengan
@@ -53,8 +53,8 @@ export default function ProfilPage() {
                 lebih luas bagi penduduk desa.
               </p>
               <p>
-                Hingga saat ini, Desa Sejahtera terus berkembang dengan tetap
-                mempertahankan nilai-nilai budaya dan kearifan lokal yang
+                Hingga saat ini, Desa Bandar Khalifah terus berkembang dengan
+                tetap mempertahankan nilai-nilai budaya dan kearifan lokal yang
                 menjadi ciri khas desa ini.
               </p>
             </div>
@@ -65,8 +65,8 @@ export default function ProfilPage() {
               <div>
                 <h3 className="text-xl font-bold mb-2">Visi</h3>
                 <p className="text-muted-foreground">
-                  "Mewujudkan Desa Sejahtera yang mandiri, maju, sejahtera, dan
-                  berbudaya berdasarkan gotong royong."
+                  "Mewujudkan Desa Bandar Khalifah yang mandiri, maju,
+                  sejahtera, dan berbudaya berdasarkan gotong royong."
                 </p>
               </div>
               <div>
